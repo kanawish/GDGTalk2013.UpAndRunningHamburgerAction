@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hamburger Action</string>
+    <string name="box">Box</string>
+    <string name="new_android">New Android</string>
+    <string name="main">Main</string>
+    <string name="box2">Box 2</string>
+    <string name="box3">Box 3</string>
 </resources>

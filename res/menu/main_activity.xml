@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bugdroid"
+          android:icon="@drawable/ic_action_android"
+          android:title="@string/new_android"
+          android:showAsAction="always|withText"/>
+    <item android:id="@+id/box"
+          android:icon="@drawable/ic_action_dropbox"
+          android:title="@string/box"
+        />
+    <item android:id="@+id/box2"
+          android:title="@string/box2"/>
+    <item android:id="@+id/box3"
+          android:title="@string/box3"/>
+</menu>
