@@ -1,5 +1,5 @@
 
-## Rapid Android dev techniques
+# Rapid Android dev/prototyping techniques
 
 ### Leveraging IntelliJ/Eclipse UI Editors
 
@@ -31,15 +31,15 @@ Pros:
 
 - Blazingly fast, faster than real device.
 - (Integration tests at x10 speeds? Yes please.)
-- Perfect for product demoes on projectors
+- Perfect for product demos on projectors
 - Acts like a real device 
 	- Access to Play Store
 	- Syncs with your google account
 
 Caveats:
 
-- `<uses-sdk android:minSdkVersion="16"/>`
-- Current version has softkeyboard/hardkey bugs (overflow a problem)
+- You might have to wait for support of new Android versions. 
+- Fixed! ~~Current version has softkeyboard/hardkey bugs (overflow a problem)~~ 
 - When using NDK/JNI you'll need to make sure to provide x86 libraries
 
 
@@ -63,6 +63,5 @@ Quick, where's my .apk??
 ## Pits of doom? 
 
 - Like scrum? Use post-its, avoid time consuming task managers.
-- ActionBarSherlock: we love it, but if you're lucky, by the time you have a shippable product, gingerbread will be dead. The time overhead isn't worth it.
-- RoboGuice, RoboElectric are awesome, but you don't have the time. :)
-- Complex 
+- ActionBarSherlock: we love it, but if you're lucky, by the time you have a shippable product, gingerbread will be dead. The time overhead might not be worth it.
+- RoboGuice, RoboElectric are awesome, but in a hackathon, testing is probably not a priority, and while injection can make you faster, it won't if you have to teach everyone on your team how to use it.
